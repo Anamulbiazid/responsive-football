@@ -1,0 +1,64 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* style of copa america 2021 part */
+.copa-america
+{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+}
+.copa-america
+{
+    display: flex;
+    
+}
+.copa-text
+{
+    width: 485px;
+    height: 230px;
+    margin-top: 130px;
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 207px 102px 240px 156px; */
+}
+.copa-text h1
+{
+    color:#FFFFFF;
+    font-size: 60px;
+    margin-bottom: 27px;
+    
+}
+.copa-text:hover{
+    color: tomato;
+    transform: scale(1.2) translate(-20px);
+    transition: transform 2s ease-out;
+}
+.copa-text a:hover
+{
+    background-color:orangered;
+
+}
+.copa-text a
+{   color: #FFFFFF; 
+    background-color: #E02C6D;
+    font-size: 16px;
+    text-decoration: none;
+    padding:10px 24px;
+    
+}
+.copa-text a .fa-arrow-right{
+    padding-left: 10px;
+}
+.banner
+{
+    width: 556px;
+    height: 438px;
+    margin: 153px 141px 86px ;
+   
+}
+.banner:hover
+{
+    transform: translate(-30px) rotate(10deg);
+    transition: transform 2s linear;
+    transform-origin: top ;
+}
