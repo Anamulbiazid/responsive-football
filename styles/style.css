@@ -1,5 +1,10 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common style and utilities */
+main{
+    font-family: 'Poppins', sans-serif;
+}
 /* style of copa america 2021 part */
 .copa-america
 {
@@ -18,8 +23,7 @@
     height: 230px;
     margin-top: 130px;
     margin-left: 150px;
-    font-family: 'Poppins', sans-serif;
-    /* margin: 207px 102px 240px 156px; */
+  /* margin: 207px 102px 240px 156px; */
 }
 .copa-text h1
 {
@@ -36,6 +40,7 @@
 .copa-text a:hover
 {
     background-color:orangered;
+    font-family: 'Poppins', sans-serif;
 
 }
 .copa-text a
@@ -61,4 +66,50 @@
     transform: translate(-30px) rotate(10deg);
     transition: transform 2s linear;
     transform-origin: top ;
+}
+/* styles of player */
+.players{
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:45px;
+    margin-top: 70px;
+    margin-left: 80px;
+    
+    
+}
+.player-info{
+    width: 330px;
+    height: 456px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px gray;
+    
+}
+.player-info .player-pic img
+{
+    width: 300px;
+    height: 256px;
+    margin-bottom: 16px;
+  
+}
+.player-details{
+    width: 300px;
+    height: 154px;
+    
+}
+.player-details .player-name{
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.player-details .player-about{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #6C6C6C;
+    text-align: justify;
+    margin-top: 0;
+   
 }
