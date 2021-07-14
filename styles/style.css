@@ -113,3 +113,83 @@ main{
     margin-top: 0;
    
 }
+/* news style */
+
+.news-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(190, 174, 174, 0.555);
+}
+.all-news{
+    display: flex;
+    justify-content:space-around;
+}
+.news{
+    width: 500px;
+    height: 250px;
+    /* border: 2px solid gray;
+    border-radius: 10px; */
+    position: relative;
+
+    
+}
+.news:hover .news-detail{
+    display: block;
+    background-color: rgba(5, 117, 41, 0.507);
+
+}
+.thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.news-detail{
+    display: none;
+    position: absolute;
+    width: 500px;
+    top: 230px;
+   
+    
+}
+.news-detail a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(155, 15, 15);
+    text-align: center;
+    padding-left: 10px;
+}
+.news-detail p{
+    color: white;
+    padding-left: 10px;
+}
+.youtube{
+    padding-top: 30px;
+    padding-right: 50px;
+   
+}
+/* footer style  */
+.all-footer{
+    margin-top: 150px;
+    margin-left: 350px;
+}
+
+.football{
+    width: 484px;
+    height: 110px;
+}
+.football img{
+    width:100%;
+
+}
+.icons{
+    font-size: 2em;
+    margin-left: 200px;
+    color: purple;
+   
+}
+.copyright{
+    margin-left: 160px;
+    font-size: 1.2em;
+}
+/* media query */
